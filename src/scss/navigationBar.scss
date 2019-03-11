@@ -1,0 +1,29 @@
+$color-navigation-link: black !default;
+$color-navigation-link-active: grey !default;
+
+.navigationBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    color: $color-navigation-link;
+}
+
+.navigationBar-link {
+    @include spacing(left, m);
+    @include spacing(right, m);
+    cursor: pointer;
+
+    @include mq($until: phablet) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+.navigationBar-link-isSelected {
+    color: $color-navigation-link-active;
+}
