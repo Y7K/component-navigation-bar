@@ -1,6 +1,6 @@
 {
     "name": "@y7k/component-navigation-bar",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Vue navigation bar UI component to switch between tabs/items",
     "main": "src/js/main.js",
     "scripts": {
