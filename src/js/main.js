@@ -3,7 +3,7 @@ import Vue from 'vue';
 import _NavigationBar from './components/NavigationBar';
 
 export default {
-    registerGlobally() {
+    registerGlobally: function() {
         Vue.component('navigation-bar', _NavigationBar);
     },
 };
